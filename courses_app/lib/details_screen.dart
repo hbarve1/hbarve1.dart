@@ -193,7 +193,7 @@ class CourseContent extends StatelessWidget {
   final double duration;
   final String title;
   final bool isDone;
-  
+
   const CourseContent({
     Key? key,
     required this.number,

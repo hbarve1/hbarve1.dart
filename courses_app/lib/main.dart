@@ -42,7 +42,8 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 30),
             const Text("Hey Alex,", style: kHeadingextStyle),
-            const Text("Find a course you want to learn", style: kSubheadingextStyle),
+            const Text("Find a course you want to learn",
+                style: kSubheadingextStyle),
             Container(
               margin: const EdgeInsets.symmetric(vertical: 30),
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),

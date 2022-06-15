@@ -1,4 +1,3 @@
-
 class Category {
   final String name;
   final int numOfCourses;
@@ -8,7 +7,8 @@ class Category {
 }
 
 List<Category> categories = categoriesData
-    .map((item) => Category(item['name'] as String, item['courses'] as int, item['image'] as String))
+    .map((item) => Category(item['name'] as String, item['courses'] as int,
+        item['image'] as String))
     .toList();
 
 var categoriesData = [
